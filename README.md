@@ -20,8 +20,8 @@ The source code for my ZSA Moonlander Mark I.
 2. Then run the following to setup the environment:
 
    ```
-   # Get ZSA's fork of the qmk firmware
-   git clone git@github.com:zsa/qmk_firmware.git ~/Documents/qmk_firmware
+   # Get ZSA's fork of the qmk firmware and required submodules
+   git clone --recursive -j8 git@github.com:zsa/qmk_firmware.git ~/Documents/qmk_firmware
 
    # Setup environment
    qmk setup -H ~/Documents/qmk_firmware -b firmware23 zsa/qmk_firmware
