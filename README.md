@@ -27,7 +27,7 @@ The source code for my ZSA Moonlander Mark I.
    qmk setup -H ~/Documents/qmk_firmware -b firmware23 zsa/qmk_firmware
 
    # Add source
-   cd ~/Documents/qmk_firmware/keyboards/moonlander/
+   cd ~/Documents/qmk_firmware/keyboards/moonlander/keymaps
    git submodule add git@github.com:DonQuinleone/Moonlander.git don
 
    ```
